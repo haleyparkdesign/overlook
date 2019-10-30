@@ -1,0 +1,87 @@
+:root {
+  --apricot: #ffa78f;
+  --brown: #883434;
+  --red0: #f70418;
+  --red1: #dd3100;
+  --red2: #c02f06;
+  --purple: #3b0c61;
+}
+
+@font-face {
+  font-family: "Archer";
+  src: url("/assets/fonts/Archer-Light.woff2") format("woff2"),
+    url("/assets/fonts/Archer-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archer";
+  src: url("/assets/fonts/Archer-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Archer-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Archer";
+  src: url("/assets/fonts/Archer-Semibold.woff2") format("woff2"),
+    url("/assets/fonts/Archer-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Archer";
+  src: url("/assets/fonts/Archer-Medium.woff2") format("woff2"),
+    url("/assets/fonts/Archer-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Archer-Book";
+  src: url("/assets/fonts/Archer-Book.woff2") format("woff2"),
+    url("/assets/fonts/Archer-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Archer";
+  font-weight: 400;
+  font-style: normal;
+  background-color: #dd3100;
+  color: var(--apricot);
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: charcuterie-deco, sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.2em;
+}
+
+.title {
+  position: relative;
+}
+
+.title svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.title h2 {
+  font-size: 2.6em;
+  font-weight: 400;
+  position: absolute;
+  margin: 0;
+  top: 50%; left:0; right:0; bottom: 0;
+  transform: translateY(-38%);
+}
