@@ -7,16 +7,23 @@ const Wrapper = styled.div`
   color: ${colors.brown};
 
   .row {
+    margin-top: 80px;
     display: flex;
-    justify-content: space-evenly;
-    align-items:flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-width: 100%;
 
     img {
       display: block;
+      max-width:680px;
     }
+  }
 
-    .quote {
-      
+  .row:last-of-type {
+    margin-top: -64px;
+
+    img {
+      margin-left: auto;
     }
   }
 

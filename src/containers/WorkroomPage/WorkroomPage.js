@@ -4,6 +4,8 @@ import colors from "../../components/colors";
 import TitleGraphic from "../../components/TitleGraphic"
 import NavBar from "../NavBar/NavBar";
 import writing from "../../assets/imgs/writing.gif";
+import shaking from "../../assets/imgs/shaking.gif";
+import Quote from "../../components/Quote"
 
 const WorkroomPage = () => {
   document.body.style = `background:${colors.purple}`;
@@ -42,6 +44,10 @@ const WorkroomPage = () => {
               </div>
             </div>
           </div>
+          {/* <div className="row">
+            <Quote color={contentColor}>I've never seen her like that before. She was shaking like a shitting dog.</Quote>
+            <img src={shaking}></img>
+          </div> */}
         </div>
       </Wrapper></>
 

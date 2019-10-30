@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import colors from "../../components/colors";
-import charList from "../PlacesPage/characterList";
-import "../PlacesPage/CharacterPage/CharacterPage.css";
+import charList from "../characterList";
 import ContentWrapper from "./HomePage.style.js";
 import Key from "../Key/Key";
 

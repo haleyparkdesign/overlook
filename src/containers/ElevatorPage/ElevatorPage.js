@@ -5,6 +5,7 @@ import elevator from "../../assets/imgs/elevator.gif";
 import blood from "../../assets/imgs/blood.gif";
 import TitleGraphic from "../../components/TitleGraphic"
 import NavBar from "../NavBar/NavBar";
+import Quote from "../../components/Quote"
 
 const ElevatorPage = () => {
   document.body.style = `background:${colors.pink0}`;
@@ -20,11 +21,14 @@ const ElevatorPage = () => {
             <TitleGraphic className="graphic" color={contentColor} />
             <h2>The Elevator</h2>
           </div>
-          <br></br> <br></br> <br></br>
           <div className="row">
             <img src={elevator}></img>
-            <img src={blood}></img>
+            <Quote color={contentColor}>A lot of things happened right here at this particular hotel.</Quote>
+
           </div>
+          <div className="row"><img src={blood}></img></div>
+          <br></br>
+
         </div>
       </Wrapper>
     </>

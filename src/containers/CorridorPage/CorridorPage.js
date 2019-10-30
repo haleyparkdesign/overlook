@@ -15,21 +15,21 @@ const CorridorPage = () => {
     <>
       <NavBar pageName="corridor" color={contentColor} />
       <Wrapper>
-
-        <div className="container">
-          <div className="title">
-            <TitleGraphic className="graphic" color={contentColor} />
-            <h2>The Corridor</h2>
-          </div>
-          <br></br> <br></br> <br></br>
-          <div className="row">
-            <img src={twins}></img>
-            <Quote color={contentColor}>
-              Come play with us, Danny...
-            </Quote>
-            <img src={zero}></img>
-          </div>
+        <div className="title">
+          <TitleGraphic className="graphic" color={contentColor} />
+          <h2>The Corridor</h2>
         </div>
+        <br></br> <br></br> <br></br>
+        <div className="row">
+          <img src={twins}></img>
+          <Quote color={contentColor}>
+            Come play with us, Danny...
+            </Quote>
+        </div>
+        <div className="row">
+          <img src={zero}></img>
+        </div>
+
       </Wrapper>
     </>
   );

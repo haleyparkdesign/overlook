@@ -4,6 +4,7 @@ import colors from "../../components/colors";
 import TitleGraphic from "../../components/TitleGraphic"
 import NavBar from "../NavBar/NavBar";
 import door from "../../assets/imgs/door.png"
+import Quote from "../../components/Quote"
 
 const Room237Page = () => {
   document.body.style = `background:${colors.red2}`;
@@ -20,6 +21,7 @@ const Room237Page = () => {
           </div>
           <div className="row">
             <img src={door}></img>
+            <Quote color={contentColor}>Our guests know their deepest secrets, some of which are, frankly, rather unseemly, will go with us to our graves. </Quote>
           </div>
 
         </div>

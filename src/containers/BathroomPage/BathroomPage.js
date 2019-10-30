@@ -21,7 +21,6 @@ const BathroomPage = () => {
             <TitleGraphic className="graphic" color={contentColor} />
             <h2>The Bathroom</h2>
           </div>
-          <br></br> <br></br> <br></br>
           <div className="row">
             <img src={bathroom}></img>
             <Quote color={contentColor}>
@@ -29,7 +28,7 @@ const BathroomPage = () => {
             </Quote>
           </div>
           <div className="row">
-            {/* <img src={bathroom1}></img> */}
+            <img src={bathroom1}></img>
           </div>
           <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
         </div>

@@ -18,6 +18,7 @@ const Wrapper = styled.div`
   display: flex;
   min-width: 250px;
   margin-left: 32px;
+  font-size: 1.1em;
 
     .left {
       margin-right: 16px;

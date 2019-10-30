@@ -1,16 +1,15 @@
 import styled from "styled-components";
 import colors from "../../components/colors";
-// import KeyBG from "../../assets/imgs/KeyBG.svg";
-// import KeyChain from "../../assets/imgs/KeyChain.svg";
 
 const Wrapper = styled.div`
   max-width: 1080px;
-  margin: 4em auto 0;
+  margin: 4em auto 8em;
 
   .row {
     display: flex;
     justify-content: space-evenly;
     align-items:flex-start;
+    margin-bottom: 4em;
 
     img {
       display: block;
