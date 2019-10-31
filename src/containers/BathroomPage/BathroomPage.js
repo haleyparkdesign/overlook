@@ -30,7 +30,6 @@ const BathroomPage = () => {
           <div className="row">
             <img src={bathroom1}></img>
           </div>
-          <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
         </div>
       </Wrapper>
     </>

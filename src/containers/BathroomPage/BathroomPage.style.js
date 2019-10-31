@@ -3,7 +3,7 @@ import colors from "../../components/colors";
 
 const Wrapper = styled.div`
   max-width: 1080px;
-  margin: 4em auto 0;
+  margin: 4em auto 8em;
   color: ${colors.brown};
 
   .row {

@@ -1,7 +1,6 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import appRoutes from "./shared/appRoutes";
-import NavBar from "./containers/NavBar/NavBar";
 import HomePage from "./containers/HomePage/HomePage";
 import WorkroomPage from "./containers/WorkroomPage/WorkroomPage";
 import Room237Page from "./containers/Room237Page/Room237Page";
@@ -40,8 +39,6 @@ const app = () => {
           <Redirect to={appRoutes.home} />
         </Switch>
       </div>
-
-      {/* <Footer /> */}
     </div>
   );
 };
